@@ -1,7 +1,6 @@
 # 💱 Conversor de Monedas con API
 
 ![Java](https://img.shields.io/badge/Java-17%2B-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 Aplicación Java para conversión de divisas en tiempo real usando tasas de cambio actualizadas desde una API externa.
 
