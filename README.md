@@ -16,33 +16,41 @@ Aplicación Java para conversión de divisas en tiempo real usando tasas de camb
 1. Clonar repositorio:
 ```bash
 git clone https://github.com/teituu/convertidorDeMonedas
+```
 
+## Compilar proyecto:
+
+```bash
 cd conversor-monedas
 mvn clean package
+```
+Ejecutar:
 
+```bash
 java -jar target/conversor-monedas.jar
 
+```
 ## 🌐 Monedas soportadas
-Moneda	Código	País
-Dólar Estadounidense	USD	Estados Unidos
-Peso Argentino	ARS	Argentina
-Real Brasileño	BRL	Brasil
-Peso Colombiano	COP	Colombia
-Peso Mexicano	MXN	México
+1.-Moneda	Código	País
+2.-Dólar Estadounidense	USD	Estados Unidos
+3.-Peso Argentino	ARS	Argentina
+4.-Real Brasileño	BRL	Brasil
+6.-Peso Colombiano	COP	Colombia
+7.-Peso Mexicano	MXN	México
 
 ## 📚 Tecnologías utilizadas
 Java 17
 
-Maven - Gestión de dependencias
+1.-Maven - Gestión de dependencias
 
-JSON.org - Procesamiento de datos JSON
+2.-JSON.org - Procesamiento de datos JSON
 
-ExchangeRate-API - Fuente de tasas de cambio
+3.-ExchangeRate-API - Fuente de tasas de cambio
 
 ## 📌 Requisitos
-Java 17 o superior
+1.-Java 17 o superior
 
-Conexión a Internet
+2.-Conexión a Internet
 
-Maven (para compilación)
+3.-Maven (para compilación)
 
